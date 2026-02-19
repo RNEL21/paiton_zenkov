@@ -48,6 +48,11 @@
       const btn = document.getElementById('btn');
       btn.style.backgroundColor = '#AAFF00';
       btn.style.color = 'black';
+      btn.textContent = 'Перенаправляю на вторую...';
+      
+      setTimeout(() => {
+        window.location.href = '/second';
+      }, 1000);
     }
   </script>
 
