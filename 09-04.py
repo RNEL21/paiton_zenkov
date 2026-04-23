@@ -47,9 +47,3 @@ while True:
                 if counter == 0:
                     print("попытки закончились, ты проиграл!")
             break
-
-        
-        
-        
-        
-
